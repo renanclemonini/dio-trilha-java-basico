@@ -1,4 +1,21 @@
+/**
+ * <h1>SmartTV</h1>
+ * A Smarttv realiza metodos para alterar seus parametros iniciais
+ * <p>
+ * <strong>Nota: </strong> Foi realizado na aula sobre metodos e essa documentação foi feita durante a aula sobre Java Documentation.
+ * 
+ * @author Renan Clemonini
+ * @version 1.0
+ * @since 18/03/2022
+ */
+
 public class SmartTv {
+    /**
+     * Este método altera os atributos da televisão
+     * @param ligada este atributo retorna se a tv esta ligada ou não
+     * @param canal este atributo retorna em qual canal a tv esta
+     * @param volume este atributo retorna qual volume que a tv esta
+     */
     boolean ligada = false;
     int canal = 1;
     int volume = 25;
